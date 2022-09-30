@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // La configuración de Firebase de tu aplicación werb.
+      //agregar aquí
+      const firebaseConfig = {
+  apiKey: "AIzaSyD85I9uMK9HGdxUtPe0xtk4Rv6mIFEHPUI",
+  authDomain: "bolita-fbb49.firebaseapp.com",
+  databaseURL: "https://bolita-fbb49-default-rtdb.firebaseio.com",
+  projectId: "bolita-fbb49",
+  storageBucket: "bolita-fbb49.appspot.com",
+  messagingSenderId: "976793262748",
+  appId: "1:976793262748:web:7cb8fbc4e8c6d0e106ab59"
+};
+     /* const firebaseConfig = {
+    apiKey: "AIzaSyD85I9uMK9HGdxUtPe0xtk4Rv6mIFEHPUI",
+    authDomain: "bolita-fbb49.firebaseapp.com",
+    projectId: "bolita-fbb49",
+    storageBucket: "bolita-fbb49.appspot.com",
+    messagingSenderId: "976793262748",
+    appId: "1:976793262748:web:7cb8fbc4e8c6d0e106ab59"
+  };*/
+      // Inicia Firebase
+        firebase.initializeApp(firebaseConfig);
+          </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
